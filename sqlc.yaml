@@ -1,0 +1,9 @@
+version: 2
+sql:
+  - engine: postgresql
+    queries: "query.sql"
+    schema: "migrate/schema/01_schema.up.sql"
+    gen:
+      go:
+        package: "tutorial"
+        out: "tutorial"

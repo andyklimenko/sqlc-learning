@@ -1,0 +1,5 @@
+CREATE TABLE authors (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(1024) NOT NULL,
+    bio VARCHAR(4096)
+);
